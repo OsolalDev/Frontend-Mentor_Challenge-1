@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Challenge 1 - Results summary component</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- STYLE SHEET -->
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="challenge">
+      <div class="content">
+        <div class="content_left">
+          <h3>Your Result</h3>
+          <div class="content_left_circle">
+            <p class="content_left_circle_main-number"></p>
+            <p class="content_left_circle_secondary-number">of 100</p>
+          </div>
+          <h2>Great</h2>
+          <p class="content_left_text">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+        <div class="content_right">
+          <h3>Summary</h3>
+
+          <!-- each skill -->
+          <div class="content_right_skill reaction">
+            <div class="content_right_skill_left">
+              <img class="content_right_skill_left_icon" alt="icon" />
+              <p>Reaction</p>
+            </div>
+            <div class="content_right_skill_right">
+              <p>
+                <span class="content_right_skill_right_number"></span>
+                <span class="content_right_skill_right_total">/ 100</span>
+              </p>
+            </div>
+          </div>
+
+          <!-- each skill -->
+          <div class="content_right_skill memory">
+            <div class="content_right_skill_left">
+              <img class="content_right_skill_left_icon" alt="icon" />
+              <p>Memory</p>
+            </div>
+            <div class="content_right_skill_right">
+              <p>
+                <span class="content_right_skill_right_number"></span>
+                <span class="content_right_skill_right_total">/ 100</span>
+              </p>
+            </div>
+          </div>
+
+          <!-- each skill -->
+          <div class="content_right_skill verbal">
+            <div class="content_right_skill_left">
+              <img class="content_right_skill_left_icon" alt="icon" />
+              <p>Verbal</p>
+            </div>
+            <div class="content_right_skill_right">
+              <p>
+                <span class="content_right_skill_right_number"></span>
+                <span class="content_right_skill_right_total">/ 100</span>
+              </p>
+            </div>
+          </div>
+
+          <!-- each skill -->
+          <div class="content_right_skill visual">
+            <div class="content_right_skill_left">
+              <img class="content_right_skill_left_icon" alt="icon" />
+              <p>Visual</p>
+            </div>
+            <div class="content_right_skill_right">
+              <p>
+                <span class="content_right_skill_right_number"></span>
+                <span class="content_right_skill_right_total">/ 100</span>
+              </p>
+            </div>
+          </div>
+
+          <button class="content_right_button">Continue</button>
+        </div>
+      </div>
+    </div>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://osolaldev.github.io/Personal-Site-English/"
+        >Oda Solà López</a
+      >.
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
